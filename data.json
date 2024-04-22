@@ -1,0 +1,74 @@
+{
+  "API": [
+    {
+      "api_name": "JavaUtil",
+      "class": "Util",
+      "count": 0,
+      "expert": true
+    },
+    {
+      "api_name": "JavaGraphics",
+      "class": "Graphics",
+      "count": 0,
+      "expert": false
+    },
+    {
+      "api_name": "JavaIO",
+      "class": "IO",
+      "count": 0,
+      "expert": true
+    }
+  ],
+  "function": [
+    {
+      "function_name": "SortArray",
+      "api_name": "JavaUtil"
+    },
+    {
+      "function_name": "DrawRectangle",
+      "api_name": "JavaGraphics"
+    },
+    {
+      "function_name": "ReadFile",
+      "api_name": "JavaIO"
+    }
+  ],
+  "API_function_specific": [
+    {
+      "api_name_fk": "JavaUtil",
+      "function_name_fk": "SortArray",
+      "api_context": "Used for sorting arrays",
+      "api_topic": "Arrays",
+      "function_context": "Sort an array of elements",
+      "function_topic": "Sorting",
+      "llm_expert_API": "Yes",
+      "sim_expert_API": 0.95,
+      "llm_expert_function": "Yes",
+      "sim_expert_function": 0.90
+    },
+    {
+      "api_name_fk": "JavaGraphics",
+      "function_name_fk": "DrawRectangle",
+      "api_context": "Used for drawing shapes",
+      "api_topic": "Graphics",
+      "function_context": "Draw a rectangle on the screen",
+      "function_topic": "Drawing",
+      "llm_expert_API": "No",
+      "sim_expert_API": 0.80,
+      "llm_expert_function": "Yes",
+      "sim_expert_function": 0.85
+    },
+    {
+      "api_name_fk": "JavaIO",
+      "function_name_fk": "ReadFile",
+      "api_context": "Used for reading files",
+      "api_topic": "File IO",
+      "function_context": "Read data from a file",
+      "function_topic": "Input/Output",
+      "llm_expert_API": "Yes",
+      "sim_expert_API": 0.90,
+      "llm_expert_function": "No",
+      "sim_expert_function": 0.75
+    }
+  ]
+}
