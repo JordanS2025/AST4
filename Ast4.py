@@ -1,5 +1,5 @@
 #Jordan, David & Eli 
-# AST4 : PostgreSQL Database 
+# AST4 : PostgreSQL Database
 import psycopg2
 import json
 
